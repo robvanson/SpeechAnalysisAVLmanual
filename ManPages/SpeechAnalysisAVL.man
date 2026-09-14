@@ -1,0 +1,14 @@
+ManPagesTextFile
+"SpeechAnalysisAVL" "Rob van Son" 20260908 0
+<intro> "%%Praat% script that combines a number of scripts to analyse voicing, voice quality, and vowel spaces. "
+
+<entry> "There are 4 scripts available:"
+
+<list_item> "\bu %%AVQI% - Acoustic Voice Quality Index"
+<definition> "Calculates voice quality on a scale of 0-10 based on a sustained vowel (3s) and continuous speech (4s) \\n %%Only available if separate AVQI script is available%"
+<list_item> "\bu %%Vowel Triangle%"
+<definition> "Plots a vowel triangle of the vowels in a speech recording"
+<list_item> "\bu %%Pitch and Intensity ranges%"
+<definition> "A simplified phonetogram (Intensity x F0)"
+<list_item> "\bu %%Vowel Bender%"
+<definition> "Converts typical speech into hemiglossectomy speech with a restricted vowel space"

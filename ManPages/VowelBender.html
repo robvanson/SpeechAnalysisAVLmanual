@@ -1,0 +1,40 @@
+<html><head><meta name="robots" content="index,follow"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>VowelBender</title>
+<style>
+   td { padding-left: 5pt; padding-right: 5pt; }
+   th { padding-left: 5pt; padding-right: 5pt; }
+   code { white-space: pre-wrap; }
+   dd { white-space: pre-wrap; }
+</style>
+</head><body bgcolor="#FFFFFF">
+
+<table border=0 cellpadding=0 cellspacing=0><tr><td bgcolor="#CCCC00"><table border=4 cellpadding=9><tr><td align=middle bgcolor="#000000"><font face="Palatino,Times" size=6 color="#999900"><b>
+VowelBender
+</b></font></table></table>
+<p>A <i>Praat</i> script to simulate vowel space changes after oral cancer treatment.</p>
+<h2>Running the script </h2>
+<p>When running the script, a form will appear with the following fields:</p>
+<dl>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>Title</i><i></i>: The title of the current conversion, will become the name of the output file.</dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>Gender</i><i></i>: Indicate whether the speaker is a <i>Female</i> or <i>Male</i>. Gender affects the formant tracking </dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>Log</i><i></i>: Store all values also in a semicolon-separated-values text file. This csv file is readable by VowelTriangle.praat</dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>Formant Algorithm</i><i></i>: Select the method to calculate the formant values: <i>Robust</i> or <i>Burg</i>. </dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>i schwa F2 fraction (%)</i><i></i>: The size of the /i/-/&#601;/ (front) corner of the vowel triangle along the F2 axis in percent of the standard value. </dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>u schwa F2 fraction (%)</i><i></i>: The size of the /u/-/&#601;/ (back) corner of the vowel triangle along the F2 axis in percent of the standard value. </dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>a i F1 fraction (%)</i><i></i>: the size of the /i/-/a/ (close-open) dimension of the vowel triangle along the F1 axis in percent of the standard value. </dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>Smoothing Time (sec)</i><i></i>: The time dimension of the smoothing low pass filter of the formant tracks, in seconds. </dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>Source Signal</i><i></i>: Use either standard Praat <i>Phonation</i><i></i> or a "whithened" LPC error signal. A low order (inverse filtered) LPC error signal tends to contain remnants of the original formants, which would defeat the purpose of VowelBender. Therefore, VowelBencer will use tripple the normal LPC order to extract trhe LPC error signal. </dd>
+</dl>
+<p>Buttons:</p>
+<dl>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>Undo</i>: Erase the form.</dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>Stop</i>: Abort the script.</dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>Help</i>: Open this manual instead of running the script.</dd>
+<dd style="position:relative;padding-left:1em;text-indent:-2em">&#8226; <i>Open</i>: Open an audio file and perform the manipulations specified in the form, or open a semicolon or tab-separated table with the specifications given in the rows. </dd>
+</dl>
+<hr>
+<address>
+	<p>© Rob van Son 20260209</p>
+</address>
+</body>
+</html>
