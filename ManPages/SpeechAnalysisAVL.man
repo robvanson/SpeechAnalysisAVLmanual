@@ -1,5 +1,5 @@
 ManPagesTextFile
-"SpeechAnalysisAVL" "Rob van Son" 20260908 0
+"Speech Analysis AVL" "Rob van Son" 20260908 0
 <intro> "%%Praat% script that combines a number of scripts to analyse voicing, voice quality, and vowel spaces. "
 
 <entry> "There are 4 scripts available:"
