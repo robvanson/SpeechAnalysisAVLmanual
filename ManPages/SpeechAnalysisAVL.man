@@ -12,3 +12,6 @@ ManPagesTextFile
 <definition> "A simplified phonetogram (Intensity x F0)"
 <list_item> "\bu %%Vowel Bender%"
 <definition> "Converts typical speech into hemiglossectomy speech with a restricted vowel space"
+
+<normal> "%%Save settings% checkbox: Store settings between invocations of the script. "
+<definition> "This requires explicite approval from the user. A special popup will appear asking whether you trust this script. "
